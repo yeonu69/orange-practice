@@ -28,3 +28,21 @@
 4. Select Columns가 있는 활동은 Target(맞힐 것)과 Features(단서)를 정합니다.
 
 워크플로는 위젯 연결만 담고 있어서, 열리지 않거나 연결이 어긋나면 활동지의 순서대로 직접 연결해도 됩니다.
+
+## 추가 자료
+
+| 위치 | 내용 |
+|---|---|
+| `slides/Part1_오렌지3_제대로_시작하기.pptx` | 오렌지3 설치와 기본 사용법 |
+| `slides/01_전복_순살무게_선형회귀.pptx` | 전복 데이터로 순살 무게 예측 (Linear Regression) |
+| `slides/04_택배배송위치_군집화_kMeans.pptx` | 인천 연안 택배 배송 위치 군집화 (k-Means) |
+| `slides/08_대기오염_예측_RandomForest.pptx` | 서울 초미세먼지 예측 (Random Forest) |
+| `workflows/예제1_전복_선형회귀.ows` | 슬라이드 01의 오렌지 워크플로 |
+| `workflows/예제4_택배배송위치_kMeans_지도.ows` | 슬라이드 04의 오렌지 워크플로 (Geo Map 애드온 필요) |
+| `workflows/예제8_대기오염_RandomForest.ows` | 슬라이드 08의 오렌지 워크플로 |
+| `data/Delivery.csv` | 택배 배송 위치(위도, 경도) 371개 |
+| `data/Measurement_summary.zip` | 서울 대기오염 측정 데이터 (압축을 풀면 CSV 약 93MB) |
+| `data/Kaggle_Original.zip` | Kaggle 원본 데이터 (압축 안에 archive.zip이 한 번 더 들어 있음) |
+| `docs/자료링크목록_241111.hwp` | 자료 링크 목록 (한글 파일) |
+
+예제 워크플로(.ows)는 만든 PC의 파일 경로를 기억하고 있으므로, 열고 나서 File 위젯에서 내려받은 CSV를 다시 선택하세요.
